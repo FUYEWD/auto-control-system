@@ -1,13 +1,13 @@
 # auto-control-system
-# 🔮 未來世界的隱形工程師：自動控制理論演進
 
-> 用未來應用場景重新想像控制理論 — 從奈米醫學到氣候工程的技術實作
+🔮 **未來世界的隱形工程師：自動控制理論演進**
 
-[![YouTube](https://img.shields.io/badge/YouTube-觀看影片-red?logo=youtube)](your-video-link)
-[![Demo](https://img.shields.io/badge/Live-互動演示-success)](https://your-demo-site.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+用未來應用場景重新想像控制理論 — 從奈米醫學到氣候工程的技術實作
 
-**[🎥 觀看完整影片](your-video-link)** | **[🎮 直接玩Demo](https://your-demo-site.com)**
+[![YouTube Demo](https://img.shields.io/badge/YouTube-Demo-red)](https://youtube.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+🎥 [觀看完整影片](https://www.youtube.com/watch?v=cO5BbhAirVo) | 🎮 [直接玩Demo](https://cancer-fighting-nanobot.yay.boo)
 
 ---
 
@@ -16,7 +16,7 @@
 當我們教控制理論時，總是：倒單擺、馬達、溫度控制...  
 **但如果把同樣的技術應用在未來場景呢？**
 
-這個專案展示了**經典控制理論在科幻場景中的實際實作**：
+這個專案展示了經典控制理論在科幻場景中的實際實作：
 
 | 經典範例 | → | 未來場景 | 核心技術 |
 |---------|---|---------|---------|
@@ -31,12 +31,12 @@
 
 ## 🎯 適合誰？
 
-- ✅ 控制系統工程師想看不一樣的應用
-- ✅ 對未來科技感興趣的開發者
-- ✅ 需要 Portfolio 專案靈感的人
-- ✅ 想把論文概念做成視覺化的研究者
+✅ 控制系統工程師想看不一樣的應用  
+✅ 對未來科技感興趣的開發者  
+✅ 需要 Portfolio 專案靈感的人  
+✅ 想把論文概念做成視覺化的研究者  
 
-**不適合**：完全沒接觸過控制理論的初學者（建議先看基礎教材）
+❌ **不適合**：完全沒接觸過控制理論的初學者（建議先看基礎教材）
 
 ---
 
@@ -70,7 +70,7 @@ class NanobotSwarm:
             )
 ```
 
-**[📁 完整實作](2_Future_Applications/Nanomedicine_Control/)** | **[🎮 3D視覺化Demo](demos/nanobot.html)**
+🎮 **[體驗互動 Demo](https://cancer-fighting-nanobot.yay.boo)** | 🎥 **[觀看技術解說影片](https://www.youtube.com/watch?v=cO5BbhAirVo)**
 
 **關鍵技術點**：
 - 分散式協同演算法
@@ -113,7 +113,7 @@ class ClimateController:
         return self.robust_optimization(cost_function)
 ```
 
-**[📁 完整實作](2_Future_Applications/Climate_Engineering/)** | **[📊 互動模擬](demos/climate.html)**
+📁 完整實作：開發中 | 📊 互動模擬：開發中
 
 **關鍵技術點**：
 - 大規模非線性系統建模
@@ -154,7 +154,7 @@ class BCIController:
             time.sleep(0.01)  # 100Hz控制頻率
 ```
 
-**[📁 完整實作](2_Future_Applications/Brain_Computer_Interface/)** | **[🎮 模擬器](demos/bci.html)**
+📁 完整實作：開發中 | 🎮 模擬器：開發中
 
 **關鍵技術點**：
 - 適應性濾波器設計
@@ -195,7 +195,7 @@ class SelfBuildingCity:
                 robot.execute(task, avoid_collision=True)
 ```
 
-**[📁 完整實作](2_Future_Applications/Self_Building_City/)** | **[🎮 即時模擬](demos/smart-city.html)**
+📁 完整實作：開發中 | 🎮 即時模擬：開發中
 
 **關鍵技術點**：
 - 分層控制架構
@@ -271,7 +271,8 @@ Future-Control-Theory/
 ## 🚀 快速開始
 
 ### 線上體驗（推薦）
-直接訪問 **[Demo網站](https://your-demo-site.com)** 不需安裝
+
+🎮 **[奈米機器人 Demo](https://cancer-fighting-nanobot.yay.boo)** - 不需安裝，直接體驗
 
 ### 本地執行
 
@@ -293,6 +294,7 @@ python -m http.server 8000
 ```
 
 ### 要求
+
 - Python 3.8+
 - 現代瀏覽器（支援WebGL）
 - （選用）MATLAB R2020a+ 用於進階範例
@@ -341,9 +343,9 @@ Decentralized MPC:   35.4s  (超調 5%, 魯棒性最佳)
    ```
 
 3. **參考文獻**
-   - Camacho & Bordons - Model Predictive Control (MPC理論)
-   - Åström & Murray - Feedback Systems (控制系統)
-   - LaValle - Planning Algorithms (路徑規劃)
+   - Camacho & Bordons - *Model Predictive Control* (MPC理論)
+   - Åström & Murray - *Feedback Systems* (控制系統)
+   - LaValle - *Planning Algorithms* (路徑規劃)
 
 ---
 
@@ -358,14 +360,14 @@ Decentralized MPC:   35.4s  (超調 5%, 魯棒性最佳)
 
 ### 討論區
 
-- 💬 **[Discussions](https://github.com/your-repo/discussions)** - 技術討論
-- 🐛 **[Issues](https://github.com/your-repo/issues)** - 問題回報
-- 🎯 想法：可以用這個框架實現什麼新場景？
+- 💬 [Discussions](../../discussions) - 技術討論
+- 🐛 [Issues](../../issues) - 問題回報
+- 🎯 **想法**：可以用這個框架實現什麼新場景？
 
 ### Show Your Work
 
 如果你用這個專案做了有趣的東西，歡迎：
-- 在 Discussions 分享
+- 在 [Discussions](../../discussions) 分享
 - Pull Request 加入 `community-projects/` 資料夾
 
 ---
@@ -374,7 +376,8 @@ Decentralized MPC:   35.4s  (超調 5%, 魯棒性最佳)
 
 MIT License - 可自由使用、修改、商用
 
-**引用本專案**：
+### 引用本專案
+
 ```bibtex
 @misc{future_control_theory,
   author = {Your Name},
@@ -388,15 +391,16 @@ MIT License - 可自由使用、修改、商用
 
 ## 🎬 關於影片
 
-這個專案是 **[YouTube影片](your-video-link)** 的技術實作。
+這個專案是 **[YouTube 技術解說影片](https://www.youtube.com/watch?v=cO5BbhAirVo)** 的完整實作。
 
-影片時間軸對應：
+### 影片時間軸對應
+
 - `00:00` - 概念介紹
-- `02:30` - 奈米醫學場景 → [Demo](demos/nanobot.html)
-- `08:15` - 氣候工程 → [Demo](demos/climate.html)
-- `13:40` - 腦機介面 → [Demo](demos/bci.html)
-- `18:20` - 智慧城市 → [Demo](demos/smart-city.html)
-- `23:00` - 技術總結 → [實作筆記](docs/implementation_notes.md)
+- `02:30` - 奈米醫學場景 → **[互動 Demo](https://cancer-fighting-nanobot.yay.boo)** ✅ 已完成
+- `08:15` - 氣候工程 → Demo（開發中）
+- `13:40` - 腦機介面 → Demo（開發中）
+- `18:20` - 智慧城市 → Demo（開發中）
+- `23:00` - 技術總結 → 實作筆記
 
 ---
 
@@ -418,8 +422,8 @@ A: 絕對可以！歡迎PR優化。這個版本優先考慮可讀性和教學性
 
 <div align="center">
 
-**[🎥 觀看影片](your-video-link)** • **[🎮 試玩Demo](https://your-demo-site.com)** • **[⭐ 給個星星](https://github.com/your-repo)**
+Made with ❤️ for control theory enthusiasts
 
-*用創意重新想像控制理論的可能性*
+[⬆ 回到頂部](#auto-control-system)
 
 </div>
